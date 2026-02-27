@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZZCIC_CIT_LIB_22BM007007'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZZCIC_CIT_LIB_22BM007007'
+  }
+}
+define service ZZCIUI_ZCIT_LIB_22BM007_O4007 provider contracts odata_v4_ui {
+  expose ZZCIC_CIT_LIB_22BM007007;
+}
